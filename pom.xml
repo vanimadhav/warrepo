@@ -20,14 +20,15 @@
   </build>
   <distributionManagement>
   <repository>
-     <id>cjp</id>
+     <id>test</id>
      
-     <url>http://35.165.209.102:8080/nexus-latest/content/repositories/releases/</url>
+     <url>http://18.218.35.255:8080/nexus-2.14.8-01/content/repositories/releases//</url>
   </repository>
   <snapshotRepository>
-     <id>cjp</id>
+     <id>test</id>
     
-     <url>http://35.165.209.102:8080/nexus-latest/content/repositories/snapshots/</url>
+    
+     <url>http://18.218.35.255:8080/nexus-2.14.8-01/content/repositories/snapshots//</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
